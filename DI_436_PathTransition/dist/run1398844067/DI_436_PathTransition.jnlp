@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DI_436_PathTransition.jnlp">
+  <information>
+    <title>DI_436_PathTransition</title>
+    <vendor>CRAMi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DI_436_PathTransition.jar" size="3216" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DI_436_PathTransition" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="di_436_pathtransition.DI_436_PathTransition"  name="DI_436_PathTransition" />
+  <update check="always"/>
+</jnlp>
